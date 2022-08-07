@@ -11,6 +11,9 @@ body {
   margin: 0;
   font-family: Poppins;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* PHẦN MENU TOP */
 .container-menu-destop {
   position: relative;
@@ -568,7 +571,7 @@ phần chữ nổi trên slide */
 
 /* PHẦN FOOTER */
 footer {
-  margin-top: 140px;
+  /* margin-top: 140px; */
   background-image: url(../images/bg-ft.jpg);
 }
 .wrap-footer {
@@ -700,4 +703,28 @@ input {
 }
 .icon-payment a{ 
   text-decoration: none;
+}
+/* thanh scrool */
+.wrap-scroll{ 
+  width: 1200px;
+  display: flex;
+  justify-content: end;
+}
+.scroll{ 
+margin: 120px 0px 5px;
+  opacity: 60%;
+  background: #717fe0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.scroll>a>i{ 
+  color: #ffff;
+}
+.scroll:hover{ 
+opacity: 100%;
+transition: all .4s;
 }
