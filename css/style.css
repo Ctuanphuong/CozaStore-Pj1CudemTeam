@@ -710,7 +710,8 @@ input {
   display: flex;
   justify-content: end;
 }
-.scroll{ 
+.scroll>a{ 
+  text-decoration: none;
 margin: 120px 0px 5px;
   opacity: 60%;
   background: #717fe0;
@@ -724,7 +725,7 @@ margin: 120px 0px 5px;
 .scroll>a>i{ 
   color: #ffff;
 }
-.scroll:hover{ 
+.scroll>a:hover{ 
 opacity: 100%;
 transition: all .4s;
 }
